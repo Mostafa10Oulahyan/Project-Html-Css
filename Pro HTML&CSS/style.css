@@ -1,0 +1,229 @@
+ 
+
+ body{
+   width: 100%;
+   height:auto;
+   background-image: linear-gradient(to right,  rgba(245, 224, 192, 0.779), rgba(203, 228, 254, 0.779)) ;
+   
+ }
+ 
+ #ola{
+   margin: 5px;
+ }
+
+ header{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:  space-between;
+   background-color: rgb(9, 168, 221);
+   margin-top: 0;
+   position: sticky;
+   top: 0px;
+   z-index: 300;
+   border-radius: 70px 70px 70px;
+  /* border-radius: 20%;*/
+}
+nav{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+
+}
+
+
+nav img{
+  
+   margin-right: 20PX;
+   margin-left: 20PX;
+   width: 130px;
+   height: 60px;
+   border-radius: 70px 70px 70px 70px;
+   position: relative;
+}
+ul{
+list-style: none;
+display: flex;
+   flex-wrap: wrap;
+   justify-content:space-evenly;
+   margin-right: 20%;
+}
+ 
+
+ul li{
+   margin : 0 20PX 0 20PX;
+}
+li a{
+   text-decoration: none;
+   text-transform: capitalize;
+   color: white;
+   font-size: 27px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+li a:hover{
+   background-color: orange;
+   border-radius: 70px;
+   color: white;
+}
+
+ 
+ /*#About{
+    text-align: center;
+    font-family:  Arial;
+    position: relative;
+   top: 70px;
+   padding: 80px;
+}
+   */
+#About p{
+   color:orange ;
+   font-family:  Georgia, Times, 'Times New Roman', serif;
+   font-size: 43PX;
+   text-align: center;
+    padding: 80px;
+}
+#definition{
+   font-size: 25px;
+   line-height: 50px;
+   margin-top: 25px;
+}
+   #objectives{
+   
+   line-height: 50px; 
+   font-size: 25px;
+    position: relative;
+    left: 10%;
+    bottom: 78px;
+   }
+   #container2{
+     display: flex; 
+     flex-wrap: wrap;
+   }
+#container{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+  flex-wrap: wrap;
+}
+#image1{
+
+margin: 30px;
+overflow: hidden;
+border-radius: 0px 90px 0px ;
+
+}
+#image2{
+    margin-bottom: 55px ;
+     padding-left: 30px;
+   }
+   
+/* #team{
+   text-align: center;
+   position: relative;
+   font-family:  Arial;
+   bottom: 30px; */
+ 
+
+#container1 img{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%  ;
+   border: 3PX  solid;
+   margin: 18px;
+  margin-top: 30%;
+ 
+  
+
+}
+#container1 :hover{
+   color:orange;
+   border:orange ;
+   
+}
+ 
+ 
+#container1{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 10PX;
+   flex-wrap: wrap;
+}
+h6 {
+   text-align: center;
+   font-family:  Arial ;
+   color: rgb(11, 11, 11);
+   font-size: 25px;
+
+}
+
+.fa-instagram {
+   color: rgb(12, 12, 12);
+   
+}
+.fa-facebook {
+   color: rgb(9, 9, 9);
+}
+.fa-brands{
+   color: rgb(10, 10, 10);
+}
+
+
+
+.icon{
+text-align: center;
+}
+
+#student{
+   display: flex;
+   justify-content: center;
+   padding-top: 10%;
+}
+
+/*#About{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   height: 10px;
+   width: 300px;
+   border-radius:  10% 40%;
+   background-image:linear-gradient(to left, rgba(218, 202, 202, 0.639),rgba(0, 0, 0, 0.447)) , url(bibliotique.jpg );  ;
+}*/
+/*#kinda{
+
+    
+   width:      50%;
+   height:  auto;
+   background-color:rgba(255, 166, 0, 0.808) ;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+margin:  auto;
+border-radius: 40%;
+
+}*/
+#TEAM p{
+    
+   /*color: rgb(76, 19, 19);*/
+   color:orange;
+   text-transform: capitalize;
+   font-family:  Georgia, Times, 'Times New Roman', serif;
+   font-size: 43PX;
+   text-align: center;
+    }
+    #go{
+      font-size: 27px;
+     
+    }
+
+
+
+
+
+
+
+
+
+
+

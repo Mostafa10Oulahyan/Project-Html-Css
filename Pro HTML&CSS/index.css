@@ -1,0 +1,569 @@
+ 
+ 
+ 
+   /*background-image: url(bibliotique.jpg ) 
+  
+background-repeat:no-repeat ;
+background-size:cover ;
+ margin-top: 0;
+ 
+ 
+ body{ 
+   background-image: linear-gradient(TO bottom, rgba(0, 0, 0, 0.799), rgba(0, 0, 0, 0.247)) ,  url(bibliotique.jpg );
+ 
+ 
+
+ }
+ 
+ */
+ body{ 
+   background-image: linear-gradient(TO bottom, rgba(0, 0, 0, 0.566), rgba(0, 0, 0, 0.247)) ,  url(bibliotique.jpg );  
+ 
+  
+   
+
+ }
+ 
+ header{
+   background-image: linear-gradient(TO bottom, rgba(0, 0, 0, 0.799), rgba(0, 0, 0, 0.247)) ,  url(bibliotique.jpg );
+ }
+ @media( max-width:900PX){
+   .min-max{
+      display: flex;
+      flex-wrap: wrap;
+   }
+    
+  }
+ 
+      #pink{
+   
+         background-image: linear-gradient(TO bottom, rgba(236, 252, 10, 0.906), rgba(0, 0, 0, 0.247),rgba(26, 190, 169, 0.461) );
+       
+       
+      height: 100vH;
+      OVERFLOW: hidden;
+      POSITION: relative;
+      
+      }
+      #text{
+         background-color:  rgb(173, 209, 219);
+         color: aliceblue;
+         width: 100%;
+      
+      padding: 10PX;
+      height:  100vH;
+      position: absolute;
+      top:100vH;
+      transition: top 3S ease-in-out;
+      
+      }
+      #pink p{
+         font-size: 30px;
+         text-align: center;
+         color: blanchedalmond;
+         text-decoration:underline;
+         text-transform: capitalize;
+
+      }
+      .img-flexe{
+         display: flex;
+         flex-direction: column;
+         width: auto;
+         height: 30vh;
+      }
+      .img-flexe img{
+         width: 90%;
+         height:100VH ;
+      }
+ 
+ 
+
+  
+ 
+   /*
+
+@media( min-width:950PX)and(max-width:1100px){
+       
+       
+}
+  @media( max-width:950PX){}
+
+   */ 
+  
+  /*  respect the larg           */
+  .min-max{
+   display: flex;
+  }
+   
+    
+   #min-max{
+      height:  100%;
+      background-color: rgb(17, 140, 234);
+      color: rgb(250, 192, 0);
+      width: 100px;
+      margin-left: 5PX;
+      overflow: hidden;
+      display: flex;
+
+   }
+   #min-max:hover{
+      width: 400PX;
+      height: 70VH;
+      border-radius: 0 33PX 33PX 0;
+      background-image: linear-gradient(TO bottom, rgba(6, 152, 243, 0.753), rgba(0, 0, 0, 0.347)) ,  url(bibliotique.jpg );
+
+   }
+   ul{
+      list-style:none ;
+      margin-left: 0;
+
+   }
+   li{
+      padding:  3PX;
+      margin-left: 0%;
+      }  
+
+   li:hover{background-color: rgba(25, 126, 209, 0.852);}
+   .profil {
+      display: flex;
+      align-items: center;
+      
+      gap:32PX 
+      
+   }
+   .imag-xx{
+      width:  50PX;
+      height:  50PX;
+      border-radius: 50%;
+      overflow: hidden;
+   
+   }
+   .imag-xx img{
+      width:  100%;
+      height: 100%;
+      flex-shrink:0;
+   }
+   .imag-xx  p{
+      width:  100%;
+      height: 100%;
+      flex-shrink:0
+   }
+   #idid{
+       
+      display: flex;
+       align-items: center;
+       
+       gap:30PX ;
+       text-decoration: none;
+       overflow: hidden;
+   }
+   #idid p {
+      text-transform: capitalize;
+      
+      color:white;
+
+   }
+
+   #overflow{
+      width:  50PX;
+      height:  50PX;
+      border-radius: 50%;
+      overflow: hidden;
+
+   }
+   #overflow img{
+      width:  100%;
+      height: 100%;
+      flex-shrink:0;
+   }  
+#max{
+   width: 100%;
+}
+  
+  #min{
+    height: 66VH;
+    width:  100%;
+    background-image: linear-gradient(TO bottom, rgba(0, 0, 0, 0.799), rgba(0, 0, 0, 0.247)) , ;
+    
+    border-radius: 0 77PX  1PX 0; 
+    margin-top: 0  ;
+    
+    
+}
+#min h1{
+    font-size: 60PX;
+    color: white;
+ margin-left: 22PX;
+ text-transform: uppercase;
+ font-family:  Georgia, Times, 'Times New Roman', serif ;
+;
+width: 100%;
+}
+#min p{color: white;
+    margin-left: 11PX;
+}
+#min p span{
+   width: 400PX;
+}
+#proud{ width:100%  ;}
+#hom-titre{
+   width: 400px;
+}
+#logo-img img{
+   flex-grow: 1;
+   height:56vh ;
+   border-radius: 50%;
+   animation-name: logo;
+   animation-duration: 5s;
+   transform:skew( 0, 0, 0,);
+   animation-iteration-count: infinite;
+   display: flex;
+   flex-grow: 1;
+   margin-left:  44PX;
+   
+}
+@keyframes  logo {
+        
+   50%{ 
+      transform:skew( -30deg,0 )
+   }
+   70%{  
+      transform:skew(-40deg, 0  )
+    }
+   100%{  
+      transform:skew( 0, 0, )
+    }
+}
+ 
+
+#mov {
+   width: 100px;
+   height:100PX ;
+   background-image: url(imagefff/IMAG$$.jpg);
+background-repeat:no-repeat ;
+background-size:cover ;
+border-radius: 33PX;
+   animation-name:lahce ;
+    animation-duration: 6S;
+    animation-iteration-count: infinite;
+    background-color: aqua;
+
+}
+@keyframes lahce {
+   0%{ translate: 0 0;
+      rotate: 90DEG;
+   }
+   25%{ translate:    0 400PX;
+      rotate: 180DEG
+    }
+   50%{ translate:  0  0  ;
+      rotate: 380DEG
+   }
+   70%{ translate: 1185PX  0 ;
+      rotate: 180DEG
+    }
+   100%{  translate: 0 0;
+      rotate:  2TURN
+    }
+}
+
+
+
+
+
+
+
+/*     transition           
+background-image: linear-gradient(TO bottom, rgba(0, 0, 0, 0.799), rgba(0, 0, 0, 0.247)) ,  url(imagefff/IMAG$$.jpg );
+*/
+
+
+#border{
+   border:5PX  solid rgb(255, 115, 0);
+   
+   width: 80%;
+   margin-left: 150PX;
+   animation-name: bordr;
+   animation-duration: 3S;
+   animation-iteration-count: infinite;
+   
+    
+   
+}
+@keyframes bordr  {
+    0%{   border:5PX  solid rgba(245, 190, 7, 0.975);
+   }
+   25%{  
+      border:5PX  solid rgb(244, 244, 241);
+    }
+   50%{
+      border:5PX  solid rgb(240, 173, 5);  
+   }
+   70%{ 
+      border:5PX  solid rgb(4, 221, 249) 
+    }
+   100%{
+      border:5PX  solid rgba(239, 148, 11, 0.993);   
+    }
+}
+
+
+#pink{
+   
+   background-image: linear-gradient(TO bottom, rgba(57, 213, 205, 0.906), rgba(84, 13, 132, 0.95),rgba(26, 190, 169, 0.461) );
+ 
+ 
+height: 60vH;
+OVERFLOW: hidden;
+POSITION: relative;
+ 
+
+}
+#pink p{
+   font-size: 60px;
+   text-align: center;
+   color: blanchedalmond;
+   text-decoration:underline;
+   text-transform: capitalize;
+}
+#pink:hover #text{
+   top:0
+}
+#text{
+   background-color:  rgb(240, 165, 5);
+   color: aliceblue;
+   width: 100%;
+
+padding: 10PX;
+height: 60vH;
+position: absolute;
+top:60vh;
+transition: top 3S ease-in-out;
+
+}
+ #img-flex{
+   display: flex;
+   
+   width: 100%;
+ }
+ .img-flexe img{
+   width:  100%;
+   height: auto;
+   margin: 5px;
+   border: solid 2px ;
+}
+#kinda{
+   z-index: 2;
+   width: 100%;
+   height: 50PX;
+   background-color:rgba(255, 166, 0, 0.808) ;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+margin-top: 100PX;
+border-radius: 30%;
+text-align: center;
+}
+#kinda p{
+ width: 100%;  
+color: rgb(76, 19, 19);
+text-transform: capitalize;
+font-family:  Georgia, Times, 'Times New Roman', serif;
+font-size:  33PX;
+text-align: center;
+
+}
+/*    books              */
+#books{
+   width: 100%;
+   height: 400PX;
+}
+#flex-books{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+}
+.a{
+   color: rgb(16, 47, 142);
+}
+.flex-books{
+   width: 200PX;
+   height:   auto;
+  border: solid 2px rgb(245, 197, 6);
+   border-radius:11PX 0 11PX 0;
+   margin-left: 60PX;
+   background-color: black;
+}
+section img{
+   width: 199PX;
+   height: 300PX;
+   margin-top: 0;
+   padding: 5PX;
+   
+}
+article h3{
+   color:white;
+   text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+article h4{
+   color: orange;
+   text-align: center;
+}
+.flex-books nav a{
+   background-color: rgb(146, 222, 14);  
+}
+/*
+.flex-books nav{
+   position: absolute;
+   bottom: 0;
+   
+}
+.flex-books {
+   position: relative;
+ */  
+
+#flex-wrap{
+   display: flex;
+   flex-wrap: wrap;
+}
+#all{
+   height: 50PX;
+   width: 150px;
+   background-color: rgb(15, 15, 15);
+   margin: auto;
+   border-radius: 5PX;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#all a {
+
+   text-decoration: none;
+   color:rgb(227, 138, 6);
+   font-size: 20PX;
+   text-transform: uppercase;
+}
+#all:hover{
+background-color:  white;
+}
+
+               /*  COMANTIRE               */
+#card-comontair{
+   width: 80%;
+   height: 20PX;
+   background-color: rgb(225, 167, 7);
+   text-align: center;
+}
+
+
+#comontair{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+#coment:hover{
+   width: 350PX;
+   height: 260PX;
+   padding: 40PX;
+   transition-duration: 0.5s;
+}
+#coment{
+
+   width: 300PX;
+   height: 220PX;
+   background-color: white;
+   border-radius: 0 33PX 33PX 33PX;
+   padding: 10PX;
+   margin: 20PX;
+   
+
+}
+.coment1 img{
+   width: 100PX;
+   height: 100PX;
+   border-radius: 50%;
+   
+}
+.coment1 {
+   display: flex;
+   align-items: center;
+
+   
+}
+.coment11 img{
+   width:  70PX;
+   height:  70PX;
+   border-radius: 50%;
+   margin: 10px;
+   
+}
+.coment11{
+   display: flex;
+   align-items: center;
+
+}
+ 
+    
+ 
+
+
+                /*   PIDE DE PAGE               */
+
+footer{
+   height: 80vh;
+   background-color: rgb(13, 13, 13);
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content:space-evenly ;
+
+}
+ 
+footer nav section{
+    display: flex;
+    align-items: center;
+    gap: 1;
+     
+}
+footer nav section img {
+   width: 60PX;
+   height: 60PX;
+   border-radius: 50%;
+   overflow: hidden;
+
+}
+footer nav section  a{
+   text-decoration: none  ;
+   color: white;
+   text-transform: capitalize;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+}
+footer article{
+   width: 400PX;
+}
+
+
+#card-comontair{ 
+   width:      40%;
+   height: 50PX;
+   background-color:rgba(255, 166, 0, 0.808) ;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+margin:  auto;
+border-radius: 30%;
+text-align: center;
+}
+#card-comontair p{
+ width: 100%;  
+color: rgb(76, 19, 19);
+text-transform: capitalize;
+font-family:  Georgia, Times, 'Times New Roman', serif;
+font-size:  33PX;
+text-align: center;
+
+}
+

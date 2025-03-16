@@ -1,0 +1,36 @@
+
+    header{
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    #image1{
+opacity: 0.5;
+    }
+    
+    nav li{
+        display:inline-block;
+        list-style: none;
+        padding: 0px 20px;
+
+         
+    }
+    #backg{
+        width: 100%;
+        height:auto;
+        background-color: rgb(6, 170, 191);
+    }
+    #menu{
+        width: 100%;
+        height: 100px;
+        background-color:aliceblue;
+        margin-top: 40px;
+        border-radius: 70px 70px 70px 70px;
+        position:fixed ;
+    }
+    .container-img{
+        display: flex;
+    }
